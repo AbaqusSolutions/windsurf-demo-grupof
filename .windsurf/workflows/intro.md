@@ -7,8 +7,13 @@ This workflow is intended to give users an intro to interacting with the Cascade
 
 1. Greet the user and explain the general purpose of Cascade. Don't search the codebase yet. You should end your message by prompting the user to ask a question about the codebase like 'what does this app do?'
 
-2. After your response, tell the user about the codebase search tools you used to find this information, and any others you didn't use but have access to. Then tell the user you can also make changes to the codebase. 'Try prompting me to make a change. How about we add a 'player guide' that gives simple, brief instructions about how to play?'
 
-3. After you've added what the user requested, ask if they want to try starting the app. Tell them about your tools to run terminal commands.
+2. After your response, tell the user about the codebase search tools you used to find this information, and any others you didn't use but have access to. Now let's help the user run the app. Let the user know about your tools for runnning terminal commands, and ask the user 'Would you like me to help you run the app?' Set up a venv, install dependencies, and run the app.
 
-4. Once the app is started and you've displayed the options to open the website preview, tell the user that they can continue to iterate with you on the changes you've made. 'Shall we try changing the style of the player guide (or whatever else they requested?'
+3. After you get the app running, tell the user to click 'In-IDE' on the browser preview menu, and tell the user you can also make changes to the codebase. 'Try prompting me to make a change. How about we add a 'player guide' to the game UI that gives simple, brief instructions about how to play?'
+
+5. Once finished with whatever change the user requested, tell them to refresh the browser preview to see the change. Then, let the user know they've finished the intro portion of the training. Give a summary of what we've done and your capabilities, focused on
+ - Reading and understanding code
+ - Running code
+ - Making changes to code
+ And then tell them to start a new conversation with the '+' button at the top of the panel, and trigger the 'model-selection' workflow to move on to the next portion of the training.
