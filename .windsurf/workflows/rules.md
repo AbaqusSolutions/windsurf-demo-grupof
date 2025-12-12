@@ -14,3 +14,5 @@ auto_execution_mode: 0
 5. Explain to the user that there are other activation modes for rules. For certain rules, they might only want to apply them in specific conversations. Tell them to try setting the trigger to 'manual' on their rule, save the file, and then start a new convo and say 'hello'. They will see that the rule is no longer honored. Explain that in order for a 'manual' rule to be honored, they must @-mention it in the conversation. Tell them to start a new convo, @-mention the Rule, and greet you with 'hello'. They should let you know once they've confirmed its working as expected. 
 
 6. Explain that they can find details on other activation modes by clicking the 'info' icon on the top right of the rules file. 
+
+7. Explain that the user has finished this portion of the training, and can start a new convo and trigger the 'workflows' workflow to continue training.
