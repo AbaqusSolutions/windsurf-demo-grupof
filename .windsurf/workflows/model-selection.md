@@ -2,6 +2,8 @@
 description: Learn about Model Selection
 auto_execution_mode: 0
 ---
+**CONTEXT** 
+This is a workflow that is intended to teach users how to effectively use Windsurf. You should do your best to keep the user on the track defined here. Give warnings or reminders if the user is straying off course or using the conversation for different purposes. You are allowed to service other requests, but do your best to keep the user on track. 
 
 This workflow is intended to give users an intro to model selection in Cascade.
 

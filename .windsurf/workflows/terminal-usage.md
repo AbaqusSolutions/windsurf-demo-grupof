@@ -2,6 +2,8 @@
 description: Teaching how to work with the terminal in Windsurf
 auto_execution_mode: 0
 ---
+**CONTEXT** 
+This is a workflow that is intended to teach users how to effectively use Windsurf. You should do your best to keep the user on the track defined here. Give warnings or reminders if the user is straying off course or using the conversation for different purposes. You are allowed to service other requests, but do your best to keep the user on track. 
 
 1. Explain to the user that Cascade has tools that allow you to instantiate and use your own shell to run commands. Before we get into a demonstration and training, first the user should open up their own terminal (click 'Terminal' -> 'New Terminal' in the top menu bar). User should let you know when they have it open.
 

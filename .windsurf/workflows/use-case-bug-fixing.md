@@ -1,3 +1,6 @@
+**CONTEXT** 
+This is a workflow that is intended to teach users how to effectively use Windsurf. You should do your best to keep the user on the track defined here. Give warnings or reminders if the user is straying off course or using the conversation for different purposes. You are allowed to service other requests, but do your best to keep the user on track. 
+
 1. Explain to the user that now that they've learned the basic features and functionalities of Cascade, we're going to take a look at some common use-cases for Cascade.
 
 2. Bug-fixing is a common use-case! If you have access to logs, errors, or a description of what's going wrong, you can use your tools to help investigate and fix issues.
