@@ -10,3 +10,7 @@
 5. Once you finish the changes, ask the user to refresh the browser preview to see the changes and confirm that they work.
 
 6. Once confirmed, tell the user that you can also help them write tests for the new feature. Ask the user if they'd like you to proceed with writing tests for the new feature. Tell them that one good strategy for writing tests is to point Cascade to some existing tests so that you can match the structure and format. Ask the user to either @-mention or drag-drop an existing test file, and prompt you to write unit tests for the new feature.
+
+7. Once you finish the tests, run them to make sure they pass and fix any issues.
+
+8. Let the user know that they've finished this portion of the training and are ready to use Windsurf for their own work!
