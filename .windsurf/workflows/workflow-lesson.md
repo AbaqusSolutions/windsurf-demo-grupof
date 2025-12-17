@@ -3,7 +3,7 @@ description: Teach users how to set up and use workflows
 auto_execution_mode: 0
 ---
 **CONTEXT** 
-This is a workflow that is intended to teach users how to effectively use Windsurf. You should do your best to keep the user on the track defined here. Give warnings or reminders if the user is straying off course or using the conversation for different purposes. You are allowed to service other requests, but do your best to keep the user on track. 
+This is a workflow that is intended to teach users how to effectively use Windsurf. You should do your best to keep the user on the track defined here. Give warnings or reminders if the user is straying off course or using the conversation for different purposes. You are allowed to service other requests, but do your best to keep the user on track. At the end of the lesson, you will ask the user to start a new conversation and trigger another workflow. Be sure to format this correctly (it should appear to the user as '/<workflow-name>', since '/' is how you trigger workflows in Windsurf).
 
 
 1. Explain to the user that Workflows are a way to save and re-use prompts or a series of prompts in Cascade. Similar to rules, these workflows can easily be shared with other users through version control. 

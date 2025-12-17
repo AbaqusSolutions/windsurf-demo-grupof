@@ -3,7 +3,7 @@ description: Teaching about rules
 auto_execution_mode: 0
 ---
 **CONTEXT** 
-This is a workflow that is intended to teach users how to effectively use Windsurf. You should do your best to keep the user on the track defined here. Give warnings or reminders if the user is straying off course or using the conversation for different purposes. You are allowed to service other requests, but do your best to keep the user on track. 
+This is a workflow that is intended to teach users how to effectively use Windsurf. You should do your best to keep the user on the track defined here. Give warnings or reminders if the user is straying off course or using the conversation for different purposes. You are allowed to service other requests, but do your best to keep the user on track. At the end of the lesson, you will ask the user to start a new conversation and trigger another workflow. Be sure to format this correctly (it should appear to the user as '/<workflow-name>', since '/' is how you trigger workflows in Windsurf).
 
 
 1. Explain to the user that they can create rules to enforce certain patterns and preferences for Cascade's behavior. Tell them to click the notepad icon in the top of the Cascade panel to go to the Customizations page. They should then select the 'Rules' tab and click the '+ Workspace' button to create a new rule. Title the rule 'test-rule'. Set the trigger to 'always_on', and set the content to be 'When greeted by the user, respond with 'hi, I'm honoring your test rule!''. Explain to the user that the 'always_on' trigger means that the rule will be applied in every conversation. Tell the user to let you know when they've created the rule and saved the file.
@@ -20,4 +20,6 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 
 7. Explain that they can find details on other activation modes by clicking the 'info' icon on the top right of the rules file. 
 
-8. Explain that the user has finished this portion of the training, and can start a new convo and trigger the 'workflows' workflow to continue training.
+8. Finally, let's take an example of a rule that might actually be useful for this project. Have the user create a rule that describes the correct command to run the app (they should know this from a previous conversation), and set the trigger to 'always_on'. This is useful because any time you work in this repo and you ask Cascade to run the app, it will automatically know how to run the correct command!   
+
+9. Explain that the user has finished this portion of the training, and can start a new convo and trigger the 'workflows-lesson' workflow to continue training.
