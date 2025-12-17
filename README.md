@@ -16,7 +16,7 @@ Topics covered include:
 - Use Case: Bug Fixing
 - Use Case: Feature Development
 
-To get started, simply clone the repo, open it in Windsurf, and type '/intro' into the Cascade input! 
+**To get started, simply clone the repo, open it in Windsurf, and type '/intro' into the Cascade input box!**
 
 ## Prerequisites
 
