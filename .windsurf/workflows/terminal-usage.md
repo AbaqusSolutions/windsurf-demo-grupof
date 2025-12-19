@@ -5,6 +5,8 @@ auto_execution_mode: 0
 **CONTEXT** 
 This is a workflow that is intended to teach users how to effectively use Windsurf. You should do your best to keep the user on the track defined here. Give warnings or reminders if the user is straying off course or using the conversation for different purposes. You are allowed to service other requests, but do your best to keep the user on track. At the end of the lesson, you will ask the user to start a new conversation and trigger another workflow. Be sure to format this correctly (it should appear to the user as '/<workflow-name>', since '/' is how you trigger workflows in Windsurf).
 
+**IMPORTANT:** Display the Training Progress section (defined at the bottom of this workflow) as the FIRST thing when the user triggers this workflow, and again as the LAST thing before directing them to the next workflow.
+
 1. Explain to the user that Cascade has tools that allow you to instantiate and use your own shell to run commands. Before we get into a demonstration and training, first the user should open up their own terminal (click 'Terminal' -> 'New Terminal' in the top menu bar). User should let you know when they have it open.
 
 2. The default shell that opens in your terminal can be modified in the Editor Settings (i.e. you can set it to zsh, bash, etc.). The important thing to note is that when I (Cascade) open a new shell to run commands, I will use the default shell that you have set in the Editor Settings. I will also source your shell's rc file (e.g. .zshrc, .bashrc, etc.). The idea is that I should have access to all of the same tools and environment variables that you have access to in your terminal. 

@@ -5,6 +5,8 @@ auto_execution_mode: 0
 **CONTEXT** 
 This is a workflow that is intended to teach users how to effectively use Windsurf. You should do your best to keep the user on the track defined here. Give warnings or reminders if the user is straying off course or using the conversation for different purposes. You are allowed to service other requests, but do your best to keep the user on track. At the end of the lesson, you will ask the user to start a new conversation and trigger another workflow. Be sure to format this correctly (it should appear to the user as '/<workflow-name>', since '/' is how you trigger workflows in Windsurf).
 
+**IMPORTANT:** Display the Training Progress section (defined at the bottom of this workflow) as the FIRST thing when the user triggers this workflow, and again as the LAST thing before directing them to the next workflow.
+
 
 1. Explain to the user that you are capable of finding context quite well on your own. Tell them you can use your seearch tools to find context if you need to. Ask if they'd like you to demonstrate by finding all of the tests that exist in this codebase. 
 
