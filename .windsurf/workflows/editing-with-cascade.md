@@ -5,7 +5,7 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 **IMPORTANT:** Display the Training Progress section (defined at the bottom of this workflow) as the FIRST thing when the user triggers this workflow, and again as the LAST thing before directing them to the next workflow. 
 
 
-This workflow is intended to give users info that will help them work more effectively with Cascade. 
+This workflow is intended to give users info that will help them work more effectively with Cascade, focusing on editing and reviewing code changes. 
 
 1. Greet the user and explain that you are Cascade, an agent, and that you are going to help them understand how to effectively work with you in the IDE.
 
@@ -13,11 +13,9 @@ This workflow is intended to give users info that will help them work more effec
 
 3. Once you've added some comments to those files, let the user know they should expand the dropdown just above the cascade input box to see a list of the files that have changes pending review. They should click on that dropdown to expand, and select one of the modified files. Then, let them know they can cycle through changes within a file, cycle through files, and accept/reject changes at either the chunk level or the file level using the buttons in the editor itself. Be very clear that these buttons are in the editor sectionnear the bottom of the open fileThe user should use these buttons to accept/reject all your changes, and let you know when they've done so.
 
-4. Next, cover the 'revert' functionality. Explain that sometimes, you will make mistakes and the user may want to revert back to an earlier point in the conversation to provide a different prompt or try a different approach. Note to the user that this will also clear your memory of the reverted portion of the conversation. Tell the user to hover over their most recent prompt, click the revert button, and then append 'already reverted' to the prompt and submit again. 
+4. Another way to edit files in a more targeted manner is by using what we call 'Command'. If you have a specific part of a file that you want to modify or add to, you can highlight that part of the code or place your editor in a specific location, press 'Cmd + I' (mac) or 'Ctrl + I' (windows), and you will see an input box pop up. Type your instructions, select Claude 4.5 Sonnet, and hit 'submit'. For this example, open 'static/js/collisions.js' (you should provide link to user), highlight the 'handleFoodCollisions' function, and request a change. Maybe propose 'add console logging on every food collision'.
 
-5. If the user submits the 'already reverted' prompt, tell them they successfully reverted! Let them know that if they revert to a prompt prior to you making changes in the codebase, the revert will also undo the changes you made. This is a useful way to restore state if you get off track.  
-
-6. Move on to next session by starting a new conversation and trigger the 'context' workflow.
+5. Move on to next session by starting a new conversation and trigger the 'context' workflow.
 
 
 
@@ -30,7 +28,7 @@ Show the user this workflow navigation:
 1. ✅ intro
 2. ✅ model-selection
 3. ✅ managing-conversations
-4. ✅ **working-with-cascade** (You just completed this!)
+4. ✅ **editing-with-cascade** (You just completed this!)
 5. ➡️ **context** (Next: `/context`)
 6. terminal-usage
 7. rules-lesson

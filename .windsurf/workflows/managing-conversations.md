@@ -21,7 +21,11 @@ Explain that previous conversations are also available to re-visit, and multiple
 
 5. Once they've done this, teach them about the 'table of contents' feature. Ask the user to look for very faint dashes near the top left of the Cascade panel. Tell them to click on one of the dashes, and they should see a table of contents. This allows them to easily navigate to any different part of the conversation. Tell the user to let you know once they've navigated to a different section successfully.
 
-6. Once they've done this, tell them they're ready to move on to the next portion of the training. Start a new convo with the '+' button at the top of the panel, and trigger the 'working-with-cascade' workflow to move on to the next portion of the training.
+6. Once they've done this, cover the 'revert' functionality. Explain that sometimes, you will make mistakes and the user may want to revert back to an earlier point in the conversation to provide a different prompt or try a different approach. Note to the user that this will also clear your memory of the reverted portion of the conversation. Tell the user to hover over their most recent prompt, click the revert button, and then append 'already reverted' to the prompt and submit again. 
+
+7. If the user submits the 'already reverted' prompt, tell them they successfully reverted! Let them know that if they revert to a prompt prior to you making changes in the codebase, the revert will also undo the changes you made. This is a useful way to restore state if you get off track.
+
+8. Once they've done this, tell them they're ready to move on to the next portion of the training. Start a new convo with the '+' button at the top of the panel, and trigger the 'editing-with-cascade' workflow to move on to the next portion of the training.
 
 ---
 
@@ -32,7 +36,7 @@ Show the user this workflow navigation:
 1. ✅ intro
 2. ✅ model-selection
 3. ✅ **managing-conversations** (You just completed this!)
-4. ➡️ **working-with-cascade** (Next: `/working-with-cascade`)
+4. ➡️ **editing-with-cascade** (Next: `/editing-with-cascade`)
 5. context
 6. terminal-usage
 7. rules-lesson

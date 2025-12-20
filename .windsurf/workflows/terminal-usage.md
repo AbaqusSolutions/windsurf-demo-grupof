@@ -32,7 +32,7 @@ Show the user this workflow navigation:
 1. ✅ intro
 2. ✅ model-selection
 3. ✅ managing-conversations
-4. ✅ working-with-cascade
+4. ✅ editing-with-cascade
 5. ✅ context
 6. ✅ **terminal-usage** (You just completed this!)
 7. ➡️ **rules-lesson** (Next: `/rules-lesson`)

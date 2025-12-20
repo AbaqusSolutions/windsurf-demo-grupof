@@ -29,7 +29,7 @@ Show the user this workflow navigation:
 1. ✅ **intro** (You just completed this!)
 2. ➡️ **model-selection** (Next: `/model-selection`)
 3. managing-conversations
-4. working-with-cascade
+4. editing-with-cascade
 5. context
 6. terminal-usage
 7. rules-lesson
