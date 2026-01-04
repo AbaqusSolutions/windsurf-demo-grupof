@@ -65,8 +65,6 @@ This is a workflow that is intended to teach users how to effectively use Windsu
    - **Kubernetes**: Checking pod status, reading logs, debugging deployments  
    - **Cloud CLIs**: Auditing resources, checking configurations, analyzing costs
    - **Infrastructure tools**: Reviewing Terraform plans, validating configurations
-   
-   Also mention that Cascade has built-in GitHub MCP server tools that provide even deeper integration (direct API access, code review automation, etc.) if they enable MCP in settings. But the `gh` CLI approach works immediately and teaches transferable skills for any CLI tool!
 
 10. **Wrap Up**: Congratulate the user on completing the CLI tools lesson! Explain that while we used `gh` as the example, they now understand the **general principles** for working with **any CLI tool** in Cascade:
     - How to run CLI commands through Cascade

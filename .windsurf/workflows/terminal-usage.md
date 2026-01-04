@@ -16,15 +16,11 @@ The below steps are dependent on the Cascade terminal integration working correc
 
 3. Let's test this out. Run echo '$PATH' in your terminal, and I'll start a shell and run the same thing. We expect to see the same output. Explain to the user that you can automatically see the outputs of your own shell commands, but you cannot by default see the outputs of the user's commands in their own terminal. In order for the user to show you the outputs of their own shell, they can use the @-mention menu, select 'Terminal', and then select their own terminal to show you the output of their shell commands. Tell the user to do this so that you can compare the outputs of your shell and their shell. Use your read terminal tool to actually examine the content. They should also let you know if they have issues with this step.
 
-4. Explain that often the user might want to have a shared terminal, where they can input commands and you (Cascade) can input commands in the same shell. To do this, the user should hover over the shell command in the Cascade chat, and click the button at the top right that says 'Move this terminal session to the terminal tab in your IDE'. Tell the user to let you know when they've found and clicked it.
+4. Explain to the user that your shell is persistent within a conversation. If you set an env var, it will be available to all of your future shell commands. Show an example (set a simple env var in one command, and then in a separate command print the value of the env var).
 
-5. Once they've done that, tell them to set an env var in that shell. Give them a simple command they can copy-paste to do this. 
+5. As the last step, explain to the user that when you (Cascade) suggest a terminal command for the user to approve, the user can double-click on the command to edit before approving it. As an example, suggest a terminal command that has an obvious typo ('mpm --version' instead of 'npm --version'). Tell the user to correct it by editing the command.
 
-6. Once they've done this, run a command to print the value of that env var. Explain to the user that now you and the user are both using the same shell, and you can see the outputs of the user's shell commands. 
-
-7. As the last step, explain to the user that when you (Cascade) suggest a terminal command for the user to approve, the user can double-click on the command to edit before approving it. As an example, suggest a terminal command that has an obvious typo ('mpm --version' instead of 'npm --version'). Tell the user to correct it by editing the command.
-
-8. Explain to the user that they've finished this portion of the training, and can start a new convo and trigger the 'rules-lesson' workflow to continue training.
+6. Explain to the user that they've finished this portion of the training, and can start a new convo and trigger the 'rules-lesson' workflow to continue training.
 
 ---
 
