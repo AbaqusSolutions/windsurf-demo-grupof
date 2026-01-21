@@ -5,7 +5,7 @@ auto_execution_mode: 0
 **CONTEXT** 
 This is a workflow that is intended to teach users how to effectively use Windsurf. You should do your best to keep the user on the track defined here. Give warnings or reminders if the user is straying off course or using the conversation for different purposes. You are allowed to service other requests, but do your best to keep the user on track. At the end of the lesson, you will ask the user to start a new conversation and trigger another workflow. Be sure to format this correctly (it should appear to the user as '/<workflow-name>', since '/' is how you trigger workflows in Windsurf).
 
-**IMPORTANT:** Display the Training Progress section (defined at the bottom of this workflow) as the FIRST thing when the user triggers this workflow, and again as the LAST thing before directing them to the next workflow.
+**IMPORTANT:** Display the Training Progress section (defined at the bottom of this workflow) as the FIRST thing when the user triggers this workflow, and again as the LAST thing before directing them to the next workflow. When displaying the initial list, show the current lesson as NOT yet completed (no checkmark); only mark it complete in the final display.
 
 
 1. Explain to the user that Workflows are a way to save and re-use prompts or a series of prompts in Cascade. Similar to rules, these workflows can easily be shared with other users through version control. 
@@ -42,7 +42,7 @@ STOP here until the user confirms they've done this.
 
 ## Training Progress
 
-Show the user this workflow navigation:
+Show the user this workflow navigation. **Important: Display each numbered item on its own line, including the Optional Advanced Training items.**
 
 **Core Training Sequence:**
 1. ✅ intro
@@ -57,4 +57,5 @@ Show the user this workflow navigation:
 10. use-case-feature-dev
 
 **Optional Advanced Training:**
-11. advanced-training-cli-tools *(optional - complete if you have time)*
+- advanced-training-cli-tools *(optional - complete if you have time)*
+- advanced-training-git-worktrees *(optional - complete if you have time)*

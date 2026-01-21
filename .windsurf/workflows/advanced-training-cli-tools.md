@@ -5,7 +5,7 @@ auto_execution_mode: 0
 **CONTEXT** 
 This is a workflow that is intended to teach users how to effectively use Windsurf and advanced CLI tools. You should do your best to keep the user on the track defined here. Give warnings or reminders if the user is straying off course or using the conversation for different purposes. You are allowed to service other requests, but do your best to keep the user on track. At the end of the lesson, you will ask the user to start a new conversation if they want to continue with other workflows.
 
-**IMPORTANT:** Display the Training Progress section (defined at the bottom of this workflow) as the FIRST thing when the user triggers this workflow, and again as the LAST thing at the end.
+**IMPORTANT:** Display the Training Progress section (defined at the bottom of this workflow) as the FIRST thing when the user triggers this workflow, and again as the LAST thing at the end. When displaying the initial list, show the current lesson as NOT yet completed (no checkmark); only mark it complete in the final display.
 
 ## Working with CLI Tools in Cascade (PR Review Example)
 
@@ -87,7 +87,7 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 
 ## Training Progress
 
-Show the user this workflow navigation:
+Show the user this workflow navigation. **Important: Display each numbered item on its own line, including the Optional Advanced Training items.**
 
 **Core Training Sequence:**
 1. ✅ intro
@@ -102,9 +102,11 @@ Show the user this workflow navigation:
 10. ✅ use-case-feature-dev
 
 **Optional Advanced Training:**
-11. ✅ **advanced-training-cli-tools** (You just completed this!)
+- ✅ **advanced-training-cli-tools** (You just completed this!)
+- advanced-training-git-worktrees *(optional - try `/advanced-training-git-worktrees`)*
 
 Great job completing this optional lesson! You can now:
 - Apply these CLI skills to any command-line tool you work with
+- Try the git-worktrees lesson to learn about isolated development with worktrees
 - Return to the main training sequence if you haven't completed it yet
 - Start a new conversation to practice on your own projects

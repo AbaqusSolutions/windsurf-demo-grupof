@@ -5,7 +5,7 @@ auto_execution_mode: 0
 **CONTEXT** 
 This is a workflow that is intended to teach users how to effectively use Windsurf. You should do your best to keep the user on the track defined here. Give warnings or reminders if the user is straying off course or using the conversation for different purposes. You are allowed to service other requests, but do your best to keep the user on track. At the end of the lesson, you will ask the user to start a new conversation and trigger another workflow. Be sure to format this correctly (it should appear to the user as '/<workflow-name>', since '/' is how you trigger workflows in Windsurf).
 
-**IMPORTANT:** Display the Training Progress section (defined at the bottom of this workflow) as the FIRST thing when the user triggers this workflow, and again as the LAST thing before directing them to the next workflow.
+**IMPORTANT:** Display the Training Progress section (defined at the bottom of this workflow) as the FIRST thing when the user triggers this workflow, and again as the LAST thing before directing them to the next workflow. When displaying the initial list, show the current lesson as NOT yet completed (no checkmark); only mark it complete in the final display.
 
 
 1. Explain to the user that they can create rules to enforce certain patterns and preferences for Cascade's behavior. Tell them to click the notepad icon in the top of the Cascade panel to go to the Customizations page. They should then select the 'Rules' tab and click the '+ Workspace' button to create a new rule. Title the rule 'test-rule'. Set the trigger to 'always_on', and set the content to be 'When greeted by the user, respond with 'hi, I'm honoring your test rule!''. Explain to the user that the 'always_on' trigger means that the rule will be applied in every conversation. Tell the user to let you know when they've created the rule and saved the file.
@@ -22,7 +22,7 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 
 7. Explain that they can find details on other activation modes by clicking the 'info' icon at the top of the rules file. 
 
-8. Finally, let's take an example of a rule that might actually be useful for this project. Have the user create a rule that describes the correct command to run the app (they should know this from a previous conversation), and set the trigger to 'always_on'. This is useful because any time you work in this repo and you ask Cascade to run the app, it will automatically know how to run the correct command!   
+8. Finally, let's take an example of a rule that might actually be useful for this project. Have the user create a rule that specifies which Python command to use on their system (e.g., 'Always use python3 when running Python scripts' or 'Always use python when running Python scripts'), and set the trigger to 'always_on'. Tell them to fill in the correct command for their system (either python3 or python). This is useful because Cascade will automatically know which Python command to use whenever working in this repo!   
 
 9. Explain that the user has finished this portion of the training, and can start a new convo and trigger the 'workflow-lesson' workflow to continue training.
 
@@ -30,7 +30,7 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 
 ## Training Progress
 
-Show the user this workflow navigation:
+Show the user this workflow navigation. **Important: Display each numbered item on its own line, including the Optional Advanced Training items.**
 
 **Core Training Sequence:**
 1. ✅ intro
@@ -45,4 +45,5 @@ Show the user this workflow navigation:
 10. use-case-feature-dev
 
 **Optional Advanced Training:**
-11. advanced-training-cli-tools *(optional - complete if you have time)*
+- advanced-training-cli-tools *(optional - complete if you have time)*
+- advanced-training-git-worktrees *(optional - complete if you have time)*
