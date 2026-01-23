@@ -29,19 +29,21 @@ This workflow is intended to give users an intro to model selection in Cascade.
 
 ## Training Progress
 
+**Estimated total training time: ~45 minutes**
+
 Show the user this workflow navigation. **Important: Display each numbered item on its own line, including the Optional Advanced Training items.**
 
 **Core Training Sequence:**
-1. ✅ intro
-2. ✅ **model-selection** (You just completed this!)
-3. ➡️ **managing-conversations** (Next: `/managing-conversations`)
-4. editing-with-cascade
-5. context
-6. terminal-usage
-7. rules-lesson
-8. workflow-lesson
-9. use-case-bug-fixing
-10. use-case-feature-dev
+1. ✅ intro (~4 min)
+2. ✅ **model-selection** (~2 min) (You just completed this!)
+3. ➡️ **managing-conversations** (~5 min) (Next: `/managing-conversations`)
+4. editing-with-cascade (~2 min)
+5. context (~7 min)
+6. terminal-usage (~4 min)
+7. rules-lesson (~5 min)
+8. workflow-lesson (~6 min)
+9. use-case-bug-fixing (~4 min)
+10. use-case-feature-dev (~6 min)
 
 **Optional Advanced Training:**
 - advanced-training-cli-tools *(optional - complete if you have time)*
