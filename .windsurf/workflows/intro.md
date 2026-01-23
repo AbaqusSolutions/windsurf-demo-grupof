@@ -7,7 +7,6 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 
 **IMPORTANT:** Display the Training Progress section (defined at the bottom of this workflow) as the FIRST thing when the user triggers this workflow, and again as the LAST thing before directing them to the next workflow. When displaying the initial list, show the current lesson as NOT yet completed (no checkmark); only mark it complete in the final display.
 
-
 This workflow is intended to give users an intro to interacting with the Cascade agent.
 
 1. Greet the user and explain the general purpose of Cascade. Don't search the codebase yet. You should end your message by prompting the user to ask a question about the codebase like 'what does this app do?'
@@ -27,19 +26,21 @@ This workflow is intended to give users an intro to interacting with the Cascade
 
 ## Training Progress
 
+**Estimated total training time: ~45 minutes**
+
 Show the user this workflow navigation exactly as formatted below. **Important: Each numbered item MUST be on its own line. Do NOT combine multiple items on a single line.**
 
 **Core Training Sequence:**
-1. ✅ **intro** (You just completed this!)
-2. ➡️ **model-selection** (Next: `/model-selection`)
-3. managing-conversations
-4. editing-with-cascade
-5. context
-6. terminal-usage
-7. rules-lesson
-8. workflow-lesson
-9. use-case-bug-fixing
-10. use-case-feature-dev
+1. ✅ **intro** (~4 min) (You just completed this!)
+2. ➡️ **model-selection** (~2 min) (Next: `/model-selection`)
+3. managing-conversations (~5 min)
+4. editing-with-cascade (~2 min)
+5. context (~7 min)
+6. terminal-usage (~4 min)
+7. rules-lesson (~5 min)
+8. workflow-lesson (~6 min)
+9. use-case-bug-fixing (~4 min)
+10. use-case-feature-dev (~6 min)
 
 **Optional Advanced Training:**
 - advanced-training-cli-tools *(optional - complete if you have time)*

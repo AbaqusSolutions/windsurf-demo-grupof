@@ -1,6 +1,6 @@
 # Windsurf Demo App
 
-A demo application and tasks to demonstrate the power of the [Windsurf Editor](https://windsurf.ai/).
+A demo application and tasks to demonstrate the power of the [Windsurf Editor](https://windsurf.com/).
 
 The application comes pre-loaded with a variety of workflows that will give you hands-on experience with Windsurf basics.
 
@@ -8,13 +8,15 @@ Topics covered include:
 - Intro to Cascade
 - Model Selection
 - Managing Conversations
-- Working with Cascade
+- Editing with Cascade
 - Adding Context
 - Terminal Usage
 - Rules
 - Workflows
 - Use Case: Bug Fixing
 - Use Case: Feature Development
+- Advanced: CLI Tools *(optional)*
+- Advanced: Git Worktrees *(optional)*
 
 **To get started, simply clone the repo, open it in Windsurf, and type '/intro' into the Cascade input box!**
 
@@ -31,20 +33,33 @@ git clone <repository-url>
 cd windsurf-demo
 ```
 
-2. Install Python dependencies:
+2. Create and activate a virtual environment:
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install Python dependencies:
 ```bash
 pip3 install -r requirements.txt
 ```
 
-3. Start the Flask server:
+4. Start the Flask server:
 ```bash
 python3 app.py
 ```
 
-4. Open your web browser and navigate to:
+5. Open your web browser and navigate to:
 ```
 http://localhost:5000
 ```
 
-5. Play the game!
+6. Play the game!
 
+## FAQ / Troubleshooting
+
+**Q: I can't trigger a workflow like `/intro`**  
+A: You may be in "Ask" mode instead of "Code" mode. Workflows can only be triggered in Code mode. Click the mode selector button at the bottom left of the Cascade input box and select "Code" mode, then try again.
+
+**Q: I see "Model provider unreachable" error in Cascade**  
+A: Close Windsurf completely and reopen it. You should be able to pick up where you left off in your training.
