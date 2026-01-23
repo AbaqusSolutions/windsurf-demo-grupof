@@ -173,7 +173,7 @@ export function updateLeaderboard() {
         }))
     ];
 
-    allPlayers.sort((a, b) => b.score - a.score);
+    allPlayers.sort((a, b) => a.score - b.score);
     
     leaderboardContent.innerHTML = allPlayers
         .slice(0, 5)
