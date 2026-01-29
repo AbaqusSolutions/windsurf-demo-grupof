@@ -23,7 +23,7 @@ Explain that the first way they can do this is by typing the '@' symbol in the C
 
 7. Next, explain to the user that in general, more focused context is better. LLMs can get confused if they are looking at a bunch of irrelevant context, so if you are really looking for the best results, be as specific as possible with the context you give Cascade.
 
-8. Next, teach the user about adding external context to Cascade. Explain that they can either take screenshots of external context or they can give you a link to curl. Prompt the user to go to to their browser and google 'windsurf api reference'. Click on the webpage you find and make sure you can access it. Let's say you have this webpage, and you want to let Cascade see the contents so it can help you write a script to call these apis. First, have the user copy-paste the url so you can curl it. Give the user a very brief summary of the contents.
+8. Next, teach the user about adding external context to Cascade. Explain that they can either take screenshots of external context or they can give you a link to curl. Prompt the user to go to to their browser and google 'windsurf api reference'. Click on the webpage you find and make sure you can access it. Let's say you have this webpage, and you want to let Cascade see the contents so it can help you write a script to call these apis. First, have the user copy-paste the url so you can curl it. Give the user a very brief summary of the contents. Note; if you are unable to fetch the URL, this may be because the user has Web Search disabled. Let the user know this is the case.
 
 9. After you curl the url, explain to the user that screenshots are another great way to add external context. Tell the user to either find an architecture diagram for one of their projects or just google something simple like 'google cloud architecture diagram'. Have the user take a screenshot, and then drag and drop the screenshot into Cascade. Give them a summary of the contents. Explain that screenshots can be very helpful for showing Cascade diagrams, fontend designs, or any other external context that you might need.
 
@@ -31,13 +31,13 @@ Explain that the first way they can do this is by typing the '@' symbol in the C
 
 11. Tell the user to remove the directory they added. They should right-click on the directory in the file explorer and select 'Remove Folder from Workspace'.
 
-12. Explain to the user that these manual methods of adding context are helpful if they already know generally what context is most important for the task they're working on. If they don't know what context is most important, you can still use your search tools to find context within the codebase for them. Tell them they've finished this portion of the training, and can start a new convo and trigger the 'terminal-usage' workflow to continue training.
+12. Explain to the user that these manual methods of adding context are helpful if they already know generally what context is most important for the task they're working on. If they don't know what context is most important, you can still use your search tools to find context within the codebase for them. Tell them they've finished this portion of the training, and can start a new convo and trigger the 'codemaps' workflow to continue training.
 
 ---
 
 ## Training Progress
 
-**Estimated total training time: ~45 minutes**
+**Estimated total training time: ~50 minutes**
 
 Show the user this workflow navigation. **Important: Display each numbered item on its own line, including the Optional Advanced Training items.**
 
@@ -47,11 +47,13 @@ Show the user this workflow navigation. **Important: Display each numbered item 
 3. ✅ managing-conversations (~5 min)
 4. ✅ editing-with-cascade (~2 min)
 5. ✅ **context** (~7 min) (You just completed this!)
-6. ➡️ **terminal-usage** (~4 min) (Next: `/terminal-usage`)
-7. rules-lesson (~5 min)
-8. workflow-lesson (~6 min)
-9. use-case-bug-fixing (~4 min)
-10. use-case-feature-dev (~6 min)
+6. ➡️ **codemaps** (~4 min) (Next: `/codemaps`)
+7. deepwiki (~3 min)
+8. terminal-usage (~4 min)
+9. rules-lesson (~5 min)
+10. workflow-lesson (~6 min)
+11. use-case-bug-fixing (~4 min)
+12. use-case-feature-dev (~6 min)
 
 **Optional Advanced Training:**
 - advanced-training-cli-tools *(optional - complete if you have time)*

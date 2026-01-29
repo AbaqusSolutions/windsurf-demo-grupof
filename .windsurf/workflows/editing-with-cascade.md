@@ -24,7 +24,7 @@ This workflow is intended to give users info that will help them work more effec
 
 ## Training Progress
 
-**Estimated total training time: ~45 minutes**
+**Estimated total training time: ~50 minutes**
 
 Show the user this workflow navigation. **Important: Display each numbered item on its own line, including the Optional Advanced Training items.**
 
@@ -34,11 +34,13 @@ Show the user this workflow navigation. **Important: Display each numbered item 
 3. ✅ managing-conversations (~5 min)
 4. ✅ **editing-with-cascade** (~2 min) (You just completed this!)
 5. ➡️ **context** (~7 min) (Next: `/context`)
-6. terminal-usage (~4 min)
-7. rules-lesson (~5 min)
-8. workflow-lesson (~6 min)
-9. use-case-bug-fixing (~4 min)
-10. use-case-feature-dev (~6 min)
+6. codemaps (~4 min)
+7. deepwiki (~3 min)
+8. terminal-usage (~4 min)
+9. rules-lesson (~5 min)
+10. workflow-lesson (~6 min)
+11. use-case-bug-fixing (~4 min)
+12. use-case-feature-dev (~6 min)
 
 **Optional Advanced Training:**
 - advanced-training-cli-tools *(optional - complete if you have time)*

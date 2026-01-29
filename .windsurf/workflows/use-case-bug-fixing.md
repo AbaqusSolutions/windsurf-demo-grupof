@@ -29,7 +29,7 @@ Are all great ways to use Cascade to help with bug investigation and fixing.
 
 ## Training Progress
 
-**Estimated total training time: ~45 minutes**
+**Estimated total training time: ~50 minutes**
 
 Show the user this workflow navigation. **Important: Display each numbered item on its own line, including the Optional Advanced Training items.**
 
@@ -39,11 +39,13 @@ Show the user this workflow navigation. **Important: Display each numbered item 
 3. ✅ managing-conversations (~5 min)
 4. ✅ editing-with-cascade (~2 min)
 5. ✅ context (~7 min)
-6. ✅ terminal-usage (~4 min)
-7. ✅ rules-lesson (~5 min)
-8. ✅ workflow-lesson (~6 min)
-9. ✅ **use-case-bug-fixing** (~4 min) (You just completed this!)
-10. ➡️ **use-case-feature-dev** (~6 min) (Next: `/use-case-feature-dev`)
+6. ✅ codemaps (~4 min)
+7. ✅ deepwiki (~3 min)
+8. ✅ terminal-usage (~4 min)
+9. ✅ rules-lesson (~5 min)
+10. ✅ workflow-lesson (~6 min)
+11. ✅ **use-case-bug-fixing** (~4 min) (You just completed this!)
+12. ➡️ **use-case-feature-dev** (~6 min) (Next: `/use-case-feature-dev`)
 
 **Optional Advanced Training:**
 - advanced-training-cli-tools *(optional - complete if you have time)*
