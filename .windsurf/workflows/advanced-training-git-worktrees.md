@@ -9,6 +9,8 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 
 ## Working with Git Worktrees in Cascade
 
+> ⚠️ **Warning:** Git worktrees are only available when you have a **single repository** open in your workspace. If you have multiple repos open, you will not be able to use this feature. Please remove all but the `windsurf-demo` repo from your workspace before proceeding with this lesson.
+
 1. Explain to the user that this lesson teaches them about **git worktree support in Cascade**. Sometimes they want to kick off a Cascade session to make changes, but they don't want those changes interfering or conflicting with whatever they're doing in their current window. For these situations, they can start a Cascade session in its own **worktree**. This means Cascade will create a new branch and a separate directory copy (same as git worktree basic functionality), allowing them to work on a task in isolation without affecting their current workspace. Let them know they'll be trying this feature hands-on in the next steps.
 
 2. Explain that the worktree option is **only available at the beginning of a fresh conversation**. **Important**: Warn the user that they need to complete all of these steps in one go - if they switch back to this conversation tab before submitting their prompt, the 'Worktree' selection will reset back to 'Local'. Give the user the following instructions to complete before coming back to this conversation:
@@ -58,8 +60,9 @@ Show the user this workflow navigation. **Important: Display each numbered item 
 10. ✅ use-case-feature-dev
 
 **Optional Advanced Training:**
+- ✅ advanced-training-hooks
 - ✅ advanced-training-cli-tools
-- ✅ **git-worktrees** (You just completed this!)
+- ✅ **advanced-training-git-worktrees** (You just completed this!)
 
 Great job completing this optional lesson! You now understand how to:
 - Use Cascade with git worktrees for isolated development

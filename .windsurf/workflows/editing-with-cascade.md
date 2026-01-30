@@ -14,7 +14,7 @@ This workflow is intended to give users info that will help them work more effec
 
 2. The first thing we'll cover is how to review changes that I might make in your codebase. Tell the user you're going to make some simple changes, just adding comments in a config.js, collisions.js, and game.js files.
 
-3. Once you've added some comments to those files, let the user know they should expand the dropdown just above the cascade input box to see a list of the files that have changes pending review. They should click on that dropdown to expand, and select one of the modified files. Then, let them know they can cycle through changes within a file, cycle through files, and accept/reject changes at either the chunk level or the file level using the buttons in the editor itself. Be very clear that these buttons are in the editor sectionnear the bottom of the open fileThe user should use these buttons to accept/reject all your changes, and let you know when they've done so.
+3. Once you've added some comments to those files, let the user know they should expand the dropdown just above the cascade input box to see a list of the files that have changes pending review. They should click on that dropdown to expand, and select one of the modified files. Then, let them know they can cycle through changes within a file, cycle through files, and accept/reject changes at either the chunk level or the file level using the buttons in the editor itself. Be very clear that these buttons are in the editor section near the bottom of the open file.The user should use these buttons to accept/reject all your changes, and let you know when they've done so. Note to the user that they will only see the aforementioned buttons if you have made unreviewed changes. If they've already accepted/rejected, they won't see them.
 
 4. Move on to next session by starting a new conversation and trigger the 'context' workflow.
 
@@ -41,5 +41,6 @@ Show the user this workflow navigation. **Important: Display each numbered item 
 10. use-case-feature-dev (~6 min)
 
 **Optional Advanced Training:**
+- advanced-training-hooks *(optional - complete if you have time)*
 - advanced-training-cli-tools *(optional - complete if you have time)*
 - advanced-training-git-worktrees *(optional - complete if you have time)*
