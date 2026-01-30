@@ -12,7 +12,7 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 
 2. Explain that the training materials the user has been going through up to this point are actually using workflows! In the file explorer, the user can expand the '.windsurf' directory and see a 'workflows' directory within that. Tell them to click into a couple of existing workflows. STOP here until the user confirms they've done this.
 
-3. Now, let's have the user create a new workflow. Click into the 'Customizations' page (notepad icon at the top of the Cascade panel), go to the 'Workflows' tab, and click the '+ Workspace' button to create a new workflow. Have the user name the workflow 'code-review'.
+3. Now, let's have the user create a new workflow. Click into the 'Configure Workflows' page (they'll see the option in a ... icon at the top right corner of the Cascade panel), which will take them to the 'Workflows' tab. From there, click the '+ Workspace' button to create a new workflow. Have the user name the workflow 'code-review'.
 STOP here until the user confirms they've done this.
 
 4. Propose the following workflow content to the user (give them this block to copy-paste into the workflow file, don't write it to the file yourself):
