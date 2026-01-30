@@ -10,6 +10,8 @@ Topics covered include:
 - Managing Conversations
 - Editing with Cascade
 - Adding Context
+- Codemaps
+- Deepwiki
 - Terminal Usage
 - Rules
 - Workflows
