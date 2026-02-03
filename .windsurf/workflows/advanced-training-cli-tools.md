@@ -104,7 +104,7 @@ Show the user this workflow navigation. **Important: Display each numbered item 
 12. ✅ use-case-feature-dev (~6 min)
 
 **Optional Advanced Training:**
-- ✅ advanced-training-hooks
+- advanced-training-hooks *(optional - try `/advanced-training-hooks`)*
 - ✅ **advanced-training-cli-tools** (You just completed this!)
 - advanced-training-git-worktrees *(optional - try `/advanced-training-git-worktrees`)*
 

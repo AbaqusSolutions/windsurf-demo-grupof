@@ -149,5 +149,5 @@ Show the user this workflow navigation. **Important: Display each numbered item 
 
 **Optional Advanced Training:**
 - ✅ **advanced-training-hooks** (~5 min) (You just completed this!)
-- ➡️ **advanced-training-cli-tools** *(Next: `/advanced-training-cli-tools`)*
-- advanced-training-git-worktrees
+-  **advanced-training-cli-tools** *(optional - try `/advanced-training-cli-tools`)*
+-  **advanced-training-git-worktrees** *(optional - try `/advanced-training-git-worktrees`)*

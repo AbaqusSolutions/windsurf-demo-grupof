@@ -48,8 +48,8 @@ Show the user this workflow navigation. **Important: Display each numbered item 
 🎉 **Congratulations! You've completed all core training workflows!**
 
 **Optional Advanced Training:**
-- advanced-training-hooks *(optional - complete if you have time)*
-- advanced-training-cli-tools *(optional - complete if you have time)*
-- advanced-training-git-worktrees *(optional - complete if you have time)*
+- advanced-training-hooks *(optional - try `/advanced-training-hooks`)*
+- advanced-training-cli-tools *(optional - try `/advanced-training-cli-tools`)*
+- advanced-training-git-worktrees *(optional - try `/advanced-training-git-worktrees`)*
 
 If you have time, try `/advanced-training-hooks`, `/advanced-training-cli-tools`, or `/advanced-training-git-worktrees` to continue with optional advanced training!
