@@ -7,6 +7,7 @@ The application comes pre-loaded with a variety of workflows that will give you 
 Topics covered include: 
 - Intro to Cascade
 - Model Selection
+- Cascade Modes (Code, Ask, and Plan Mode)
 - Managing Conversations
 - Editing with Cascade
 - Adding Context
@@ -17,6 +18,8 @@ Topics covered include:
 - Workflows
 - Use Case: Bug Fixing
 - Use Case: Feature Development
+- Advanced: Arena Mode *(optional)*
+- Advanced: Cascade Hooks *(optional)*
 - Advanced: CLI Tools *(optional)*
 - Advanced: Git Worktrees *(optional)*
 

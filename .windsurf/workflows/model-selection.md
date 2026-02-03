@@ -23,7 +23,7 @@ This workflow is intended to give users an intro to model selection in Cascade.
 
 7. Final note, let them know that they'll see a 'multiplier' next to each model in the selector. This multiplier refers to the number of 'credits' that each model uses. Credits are consumed only when you submit a prompt (press enter in the Cascade input box). Users should be aware of this, but do not need to restrict their credit usage, as 1000 credits is more than enough for most users!
 
-8. Let them know that they've finished the model selection portion of the training. Tell them to start a new conversation with the '+' button at the top of the panel, and trigger the 'managing-conversations' workflow to move on to the next portion of the training.
+8. Let them know that they've finished the model selection portion of the training. Tell them to start a new conversation with the '+' button at the top of the panel, and trigger the 'cascade-mode-selection' workflow to move on to the next portion of the training.
 
 ---
 
@@ -36,18 +36,20 @@ Show the user this workflow navigation. **Important: Display each numbered item 
 **Core Training Sequence:**
 1. ✅ intro (~4 min)
 2. ✅ **model-selection** (~2 min) (You just completed this!)
-3. ➡️ **managing-conversations** (~5 min) (Next: `/managing-conversations`)
-4. editing-with-cascade (~2 min)
-5. context (~7 min)
-6. codemaps (~4 min)
-7. deepwiki (~3 min)
-8. terminal-usage (~4 min)
-9. rules-lesson (~5 min)
-10. workflow-lesson (~6 min)
-11. use-case-bug-fixing (~4 min)
-12. use-case-feature-dev (~6 min)
+3. ➡️ **cascade-mode-selection** (~3 min) (Next: `/cascade-mode-selection`)
+4. managing-conversations (~5 min)
+5. editing-with-cascade (~2 min)
+6. context (~7 min)
+7. codemaps (~4 min)
+8. deepwiki (~3 min)
+9. terminal-usage (~4 min)
+10. rules-lesson (~5 min)
+11. workflow-lesson (~6 min)
+12. use-case-bug-fixing (~4 min)
+13. use-case-feature-dev (~6 min)
 
 **Optional Advanced Training:**
+- advanced-training-arena-mode *(optional - try `/advanced-training-arena-mode`)*
 - advanced-training-hooks *(optional - try `/advanced-training-hooks`)*
 - advanced-training-cli-tools *(optional - try `/advanced-training-cli-tools`)*
 - advanced-training-git-worktrees *(optional - try `/advanced-training-git-worktrees`)*

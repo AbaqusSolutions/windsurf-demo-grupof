@@ -44,18 +44,20 @@ Show the user this workflow navigation. **Important: Display each numbered item 
 **Core Training Sequence:**
 1. ✅ intro (~4 min)
 2. ✅ model-selection (~2 min)
-3. ✅ managing-conversations (~5 min)
-4. ✅ editing-with-cascade (~2 min)
-5. ✅ **context** (~7 min) (You just completed this!)
-6. ➡️ **codemaps** (~4 min) (Next: `/codemaps`)
-7. deepwiki (~3 min)
-8. terminal-usage (~4 min)
-9. rules-lesson (~5 min)
-10. workflow-lesson (~6 min)
-11. use-case-bug-fixing (~4 min)
-12. use-case-feature-dev (~6 min)
+3. ✅ cascade-mode-selection (~3 min)
+4. ✅ managing-conversations (~5 min)
+5. ✅ editing-with-cascade (~2 min)
+6. ✅ **context** (~7 min) (You just completed this!)
+7. ➡️ **codemaps** (~4 min) (Next: `/codemaps`)
+8. deepwiki (~3 min)
+9. terminal-usage (~4 min)
+10. rules-lesson (~5 min)
+11. workflow-lesson (~6 min)
+12. use-case-bug-fixing (~4 min)
+13. use-case-feature-dev (~6 min)
 
 **Optional Advanced Training:**
+- advanced-training-arena-mode *(optional - try `/advanced-training-arena-mode`)*
 - advanced-training-hooks *(optional - try `/advanced-training-hooks`)*
 - advanced-training-cli-tools *(optional - try `/advanced-training-cli-tools`)*
 - advanced-training-git-worktrees *(optional - try `/advanced-training-git-worktrees`)*
