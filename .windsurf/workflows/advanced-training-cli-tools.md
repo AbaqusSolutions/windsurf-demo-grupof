@@ -90,19 +90,21 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 Show the user this workflow navigation. **Important: Display each numbered item on its own line, including the Optional Advanced Training items.**
 
 **Core Training Sequence:**
-1. ✅ intro
-2. ✅ model-selection
-3. ✅ managing-conversations
-4. ✅ editing-with-cascade
-5. ✅ context
-6. ✅ terminal-usage
-7. ✅ rules-lesson
-8. ✅ workflow-lesson
-9. ✅ use-case-bug-fixing
-10. ✅ use-case-feature-dev
+1. ✅ intro (~4 min)
+2. ✅ model-selection (~2 min)
+3. ✅ managing-conversations (~5 min)
+4. ✅ editing-with-cascade (~2 min)
+5. ✅ context (~7 min)
+6. ✅ codemaps (~4 min)
+7. ✅ deepwiki (~3 min)
+8. ✅ terminal-usage (~4 min)
+9. ✅ rules-lesson (~5 min)
+10. ✅ workflow-lesson (~6 min)
+11. ✅ use-case-bug-fixing (~4 min)
+12. ✅ use-case-feature-dev (~6 min)
 
 **Optional Advanced Training:**
-- ✅ advanced-training-hooks
+- advanced-training-hooks *(optional - try `/advanced-training-hooks`)*
 - ✅ **advanced-training-cli-tools** (You just completed this!)
 - advanced-training-git-worktrees *(optional - try `/advanced-training-git-worktrees`)*
 

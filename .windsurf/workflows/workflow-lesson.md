@@ -12,7 +12,7 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 
 2. Explain that the training materials the user has been going through up to this point are actually using workflows! In the file explorer, the user can expand the '.windsurf' directory and see a 'workflows' directory within that. Tell them to click into a couple of existing workflows. STOP here until the user confirms they've done this.
 
-3. Now, let's have the user create a new workflow. Click into the 'Customizations' page (notepad icon at the top of the Cascade panel), go to the 'Workflows' tab, and click the '+ Workspace' button to create a new workflow. Have the user name the workflow 'code-review'.
+3. Now, let's have the user create a new workflow. Click into the 'Configure Workflows' page (they'll see the option in a ... icon at the top right corner of the Cascade panel), which will take them to the 'Workflows' tab. From there, click the '+ Workspace' button to create a new workflow. Have the user name the workflow 'code-review'.
 STOP here until the user confirms they've done this.
 
 4. Propose the following workflow content to the user (give them this block to copy-paste into the workflow file, don't write it to the file yourself):
@@ -42,7 +42,7 @@ STOP here until the user confirms they've done this.
 
 ## Training Progress
 
-**Estimated total training time: ~45 minutes**
+**Estimated total training time: ~50 minutes**
 
 Show the user this workflow navigation. **Important: Display each numbered item on its own line, including the Optional Advanced Training items.**
 
@@ -52,13 +52,15 @@ Show the user this workflow navigation. **Important: Display each numbered item 
 3. ✅ managing-conversations (~5 min)
 4. ✅ editing-with-cascade (~2 min)
 5. ✅ context (~7 min)
-6. ✅ terminal-usage (~4 min)
-7. ✅ rules-lesson (~5 min)
-8. ✅ **workflow-lesson** (~6 min) (You just completed this!)
-9. ➡️ **use-case-bug-fixing** (~4 min) (Next: `/use-case-bug-fixing`)
-10. use-case-feature-dev (~6 min)
+6. ✅ codemaps (~4 min)
+7. ✅ deepwiki (~3 min)
+8. ✅ terminal-usage (~4 min)
+9. ✅ rules-lesson (~5 min)
+10. ✅ **workflow-lesson** (~6 min) (You just completed this!)
+11. ➡️ **use-case-bug-fixing** (~4 min) (Next: `/use-case-bug-fixing`)
+12. use-case-feature-dev (~6 min)
 
 **Optional Advanced Training:**
-- advanced-training-hooks *(optional - complete if you have time)*
-- advanced-training-cli-tools *(optional - complete if you have time)*
-- advanced-training-git-worktrees *(optional - complete if you have time)*
+- advanced-training-hooks *(optional - try `/advanced-training-hooks`)*
+- advanced-training-cli-tools *(optional - try `/advanced-training-cli-tools`)*
+- advanced-training-git-worktrees *(optional - try `/advanced-training-git-worktrees`)*

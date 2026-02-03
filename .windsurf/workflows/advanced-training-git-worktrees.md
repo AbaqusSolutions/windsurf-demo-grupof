@@ -32,6 +32,8 @@ This is a workflow that is intended to teach users how to effectively use Windsu
    - **Easy Review**: The worktree opens in a new window, making it easy to compare and review changes
    - **Git Integration**: Everything is managed through standard git worktree functionality
 
+6. Remind the user that worktrees work great with **multi-Cascade panels** (which they learned about in the managing-conversations lesson). They can drag Cascade tabs into split views to monitor multiple conversations side-by-side — including a worktree session alongside their main workspace. This combination lets them watch Cascade agents work in isolation while continuing their own tasks in their primary workspace.
+
 7. Discuss scenarios where worktrees are particularly useful:
    - When they're in the middle of work and don't want to switch context
    - For experimental features or refactoring that might be risky
@@ -48,20 +50,22 @@ This is a workflow that is intended to teach users how to effectively use Windsu
 Show the user this workflow navigation. **Important: Display each numbered item on its own line, including the Optional Advanced Training items.**
 
 **Core Training Sequence:**
-1. ✅ intro
-2. ✅ model-selection
-3. ✅ managing-conversations
-4. ✅ editing-with-cascade
-5. ✅ context
-6. ✅ terminal-usage
-7. ✅ rules-lesson
-8. ✅ workflow-lesson
-9. ✅ use-case-bug-fixing
-10. ✅ use-case-feature-dev
+1. ✅ intro (~4 min)
+2. ✅ model-selection (~2 min)
+3. ✅ managing-conversations (~5 min)
+4. ✅ editing-with-cascade (~2 min)
+5. ✅ context (~7 min)
+6. ✅ codemaps (~4 min)
+7. ✅ deepwiki (~3 min)
+8. ✅ terminal-usage (~4 min)
+9. ✅ rules-lesson (~5 min)
+10. ✅ workflow-lesson (~6 min)
+11. ✅ use-case-bug-fixing (~4 min)
+12. ✅ use-case-feature-dev (~6 min)
 
 **Optional Advanced Training:**
-- ✅ advanced-training-hooks
-- ✅ advanced-training-cli-tools
+-  advanced-training-hooks *(optional - try `/advanced-training-hooks`)*
+-  advanced-training-cli-tools *(optional - try `/advanced-training-cli-tools`)*
 - ✅ **advanced-training-git-worktrees** (You just completed this!)
 
 Great job completing this optional lesson! You now understand how to:

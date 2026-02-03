@@ -21,7 +21,7 @@ This workflow is intended to give users an intro to model selection in Cascade.
 
 6. Let them know that the models they see are not exhaustive of SOTA models, and their team admins have limited the models available. At the time of writing, the best models available are Claude Opus 4.5 and Claude Opus 4.5 Thinking. User should keep an eye out for new models being made available in the future!
 
-7. Final note, let them know that they'll see a 'multiplier' next to each model in the selector. This multiplier refers to the number of 'credits' that each model uses. Credits are consumed only when you submit a prompt (press enter in the Cascade input box). Users should NOT worry at all about credit consumption, because their team has purchased enough credits that it will be near-impossible for users to run out. Use the best models, and prompt to your heart's content!
+7. Final note, let them know that they'll see a 'multiplier' next to each model in the selector. This multiplier refers to the number of 'credits' that each model uses. Credits are consumed only when you submit a prompt (press enter in the Cascade input box). Users should be aware of this, but do not need to restrict their credit usage, as 1000 credits is more than enough for most users!
 
 8. Let them know that they've finished the model selection portion of the training. Tell them to start a new conversation with the '+' button at the top of the panel, and trigger the 'managing-conversations' workflow to move on to the next portion of the training.
 
@@ -29,7 +29,7 @@ This workflow is intended to give users an intro to model selection in Cascade.
 
 ## Training Progress
 
-**Estimated total training time: ~45 minutes**
+**Estimated total training time: ~50 minutes**
 
 Show the user this workflow navigation. **Important: Display each numbered item on its own line, including the Optional Advanced Training items.**
 
@@ -39,13 +39,15 @@ Show the user this workflow navigation. **Important: Display each numbered item 
 3. ➡️ **managing-conversations** (~5 min) (Next: `/managing-conversations`)
 4. editing-with-cascade (~2 min)
 5. context (~7 min)
-6. terminal-usage (~4 min)
-7. rules-lesson (~5 min)
-8. workflow-lesson (~6 min)
-9. use-case-bug-fixing (~4 min)
-10. use-case-feature-dev (~6 min)
+6. codemaps (~4 min)
+7. deepwiki (~3 min)
+8. terminal-usage (~4 min)
+9. rules-lesson (~5 min)
+10. workflow-lesson (~6 min)
+11. use-case-bug-fixing (~4 min)
+12. use-case-feature-dev (~6 min)
 
 **Optional Advanced Training:**
-- advanced-training-hooks *(optional - complete if you have time)*
-- advanced-training-cli-tools *(optional - complete if you have time)*
-- advanced-training-git-worktrees *(optional - complete if you have time)*
+- advanced-training-hooks *(optional - try `/advanced-training-hooks`)*
+- advanced-training-cli-tools *(optional - try `/advanced-training-cli-tools`)*
+- advanced-training-git-worktrees *(optional - try `/advanced-training-git-worktrees`)*

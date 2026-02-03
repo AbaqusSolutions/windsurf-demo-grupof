@@ -27,9 +27,9 @@ User should also let you know if they have issues with this step.
 
 ## Training Progress
 
-**Estimated total training time: ~45 minutes**
+**Estimated total training time: ~50 minutes**
 
-Show the user this workflow navigation:
+Show the user this workflow navigation. **Important: Display each numbered item on its own line, including the Optional Advanced Training items.**
 
 **Core Training Sequence:**
 1. ✅ intro (~4 min)
@@ -37,13 +37,15 @@ Show the user this workflow navigation:
 3. ✅ managing-conversations (~5 min)
 4. ✅ editing-with-cascade (~2 min)
 5. ✅ context (~7 min)
-6. ✅ **terminal-usage** (~4 min) (You just completed this!)
-7. ➡️ **rules-lesson** (~5 min) (Next: `/rules-lesson`)
-8. workflow-lesson (~6 min)
-9. use-case-bug-fixing (~4 min)
-10. use-case-feature-dev (~6 min)
+6. ✅ codemaps (~4 min)
+7. ✅ deepwiki (~3 min)
+8. ✅ **terminal-usage** (~4 min) (You just completed this!)
+9. ➡️ **rules-lesson** (~5 min) (Next: `/rules-lesson`)
+10. workflow-lesson (~6 min)
+11. use-case-bug-fixing (~4 min)
+12. use-case-feature-dev (~6 min)
 
 **Optional Advanced Training:**
-- advanced-training-hooks *(optional - complete if you have time)*
-- advanced-training-cli-tools *(optional - complete if you have time)*
-- advanced-training-git-worktrees *(optional - complete if you have time)*
+- advanced-training-hooks *(optional - try `/advanced-training-hooks`)*
+- advanced-training-cli-tools *(optional - try `/advanced-training-cli-tools`)*
+- advanced-training-git-worktrees *(optional - try `/advanced-training-git-worktrees`)*
