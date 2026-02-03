@@ -131,21 +131,24 @@ if __name__ == "__main__":
 
 ## Training Progress
 
-**Estimated total training time: ~45 minutes**
+**Estimated total training time: ~50 minutes**
 
 Show the user this workflow navigation. **Important: Display each numbered item on its own line, including the Optional Advanced Training items.**
 
 **Core Training Sequence:**
 1. ✅ intro (~4 min)
 2. ✅ model-selection (~2 min)
-3. ✅ managing-conversations (~5 min)
-4. ✅ editing-with-cascade (~2 min)
-5. ✅ context (~7 min)
-6. ✅ terminal-usage (~4 min)
-7. ✅ rules-lesson (~5 min)
-8. ✅ workflow-lesson (~6 min)
-9. ✅ use-case-bug-fixing (~4 min)
-10. ✅ use-case-feature-dev (~6 min)
+3. ✅ cascade-mode-selection (~3 min)
+4. ✅ managing-conversations (~5 min)
+5. ✅ editing-with-cascade (~2 min)
+6. ✅ context (~7 min)
+7. ✅ codemaps (~4 min)
+8. ✅ deepwiki (~3 min)
+9. ✅ terminal-usage (~4 min)
+10. ✅ rules-lesson (~5 min)
+11. ✅ workflow-lesson (~6 min)
+12. ✅ use-case-bug-fixing (~4 min)
+13. ✅ use-case-feature-dev (~6 min)
 
 **Optional Advanced Training:**
 - advanced-training-arena-mode *(optional - try `/advanced-training-arena-mode`)*
