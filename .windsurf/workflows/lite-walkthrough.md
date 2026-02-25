@@ -60,7 +60,7 @@ This is a condensed version of the full Windsurf training, designed for shorter 
 
 8. Walk them through the review controls in the editor (near the bottom of the open file):
    - They can cycle through changes within a file and across files
-   - Accept or reject changes at the **chunk level** (individual change) or **file level**
+   - Accept or reject changes at the **chunk level** (individual change), **file level**, or **Accept All** to accept changes across all files at once
    - These buttons only appear when there are unreviewed changes
    
    Have the user accept or reject the changes, then let you know when they're done.
