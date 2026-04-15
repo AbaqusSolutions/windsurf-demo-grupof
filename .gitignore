@@ -40,3 +40,4 @@ instance/
 venv/
 env/
 ENV/
+.tool-versions
