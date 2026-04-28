@@ -1,5 +1,6 @@
 import { gameState, mouse } from './gameState.js';
 import { getSize, getRandomPosition, calculateCenterOfMass, getDistance } from './utils.js';
+import { createFood, createAI } from './factories.js';
 import { 
     WORLD_SIZE, 
     FOOD_COUNT, 
@@ -268,26 +269,12 @@ export function initEntities() {
 
     // Initialize food
     for (let i = 0; i < FOOD_COUNT; i++) {
-        const pos = getRandomPosition();
-        gameState.food.push({
-            x: pos.x,
-            y: pos.y,
-            color: `hsl(${Math.random() * 360}, 50%, 50%)`
-        });
+        gameState.food.push(createFood());
     }
 
     // Initialize AI players
     for (let i = 0; i < AI_COUNT; i++) {
-        const pos = getRandomPosition();
-        const ai = {
-            x: pos.x,
-            y: pos.y,
-            score: AI_STARTING_SCORE,
-            color: `hsl(${Math.random() * 360}, 70%, 50%)`,
-            direction: Math.random() * Math.PI * 2,
-            name: getUnusedAIName()
-        };
-        gameState.aiPlayers.push(ai);
+        gameState.aiPlayers.push(createAI(getUnusedAIName()));
     }
 
     console.log('Entities initialized:', {
@@ -299,15 +286,6 @@ export function initEntities() {
 
 // Export for use in other modules
 export function respawnAI() {
-    const pos = getRandomPosition();
     const name = getUnusedAIName();
-    
-    return {
-        x: pos.x,
-        y: pos.y,
-        score: AI_STARTING_SCORE,
-        color: `hsl(${Math.random() * 360}, 70%, 50%)`,
-        direction: Math.random() * Math.PI * 2,
-        name: name
-    };
+    return createAI(name);
 }
