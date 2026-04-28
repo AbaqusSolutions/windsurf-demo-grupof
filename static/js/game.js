@@ -1,8 +1,10 @@
 import { gameState, mouse } from './gameState.js';
-import { initRenderer, resizeCanvas, drawGame, drawMinimap, updateLeaderboard } from './renderer.js';
+import { GameRenderer } from './renderer.js';
 import { updatePlayer, updateAI, initEntities, handlePlayerSplit } from './entities.js';
 import { handleFoodCollisions, handlePlayerAICollisions, handleAIAICollisions, respawnEntities } from './collisions.js';
 import { initUI } from './ui.js';
+
+let renderer;
 
 function setupInputHandlers() {
     const canvas = document.getElementById('gameCanvas');
@@ -20,7 +22,7 @@ function setupInputHandlers() {
 
     // Window resize
     window.addEventListener('resize', () => {
-        resizeCanvas();
+        renderer.resizeCanvas();
     });
 }
 
@@ -52,9 +54,9 @@ function gameLoop() {
     updatePlayer();
     updateAI();
     checkCollisions();
-    updateLeaderboard();
-    drawGame();
-    drawMinimap();
+    renderer.updateLeaderboard();
+    renderer.drawGame();
+    renderer.drawMinimap();
     requestAnimationFrame(gameLoop);
 }
 
@@ -80,7 +82,7 @@ async function initGame() {
         console.log('DOM elements found');
 
         // Initialize game components in order
-        initRenderer(elements);
+        renderer = new GameRenderer(gameState, elements);
         console.log('Renderer initialized');
         
         setupInputHandlers();
