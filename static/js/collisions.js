@@ -1,6 +1,7 @@
 import { gameState } from './gameState.js';
 import { getDistance, getSize, getRandomPosition, findSafeSpawnLocation } from './utils.js';
 import { FOOD_SIZE, FOOD_SCORE, COLLISION_THRESHOLD, FOOD_COUNT, AI_COUNT, STARTING_SCORE, WORLD_SIZE } from './config.js';
+import { createPlayerCell, createFood } from './factories.js';
 import { respawnAI } from './entities.js';
 
 export function handleFoodCollisions() {
@@ -87,13 +88,7 @@ export function handlePlayerAICollisions() {
     // Respawn player if all cells are gone
     if (gameState.playerCells.length === 0) {
         const safePos = findSafeSpawnLocation(gameState);
-        gameState.playerCells.push({
-            x: safePos.x,
-            y: safePos.y,
-            score: STARTING_SCORE,
-            velocityX: 0,
-            velocityY: 0
-        });
+        gameState.playerCells.push(createPlayerCell(safePos.x, safePos.y, STARTING_SCORE));
     }
 }
 
@@ -146,12 +141,7 @@ export function handleAIAICollisions() {
 export function respawnEntities() {
     // Respawn food if needed
     while (gameState.food.length < FOOD_COUNT) {
-        const pos = getRandomPosition();
-        gameState.food.push({
-            x: pos.x,
-            y: pos.y,
-            color: `hsl(${Math.random() * 360}, 50%, 50%)`
-        });
+        gameState.food.push(createFood());
     }
 
     // Respawn AI players if needed
@@ -166,12 +156,6 @@ export function respawnEntities() {
     // Ensure player has at least one cell
     if (gameState.playerCells.length === 0) {
         const safePos = findSafeSpawnLocation(gameState);
-        gameState.playerCells.push({
-            x: safePos.x,
-            y: safePos.y,
-            score: STARTING_SCORE,
-            velocityX: 0,
-            velocityY: 0
-        });
+        gameState.playerCells.push(createPlayerCell(safePos.x, safePos.y, STARTING_SCORE));
     }
 }
