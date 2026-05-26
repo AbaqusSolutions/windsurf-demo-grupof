@@ -21,9 +21,10 @@ export function calculateCenterOfMass(cells) {
     const totalScore = cells.reduce((sum, cell) => sum + cell.score, 0);
     if (totalScore === 0) return { x: 0, y: 0 };
     
+    const count = cells.length;
     return {
-        x: cells.reduce((sum, cell) => sum + cell.x * cell.score, 0) / totalScore,
-        y: cells.reduce((sum, cell) => sum + cell.y * cell.score, 0) / totalScore
+        x: cells.reduce((sum, cell) => sum + cell.x, 0) / count,
+        y: cells.reduce((sum, cell) => sum + cell.y, 0) / count
     };
 }
 
